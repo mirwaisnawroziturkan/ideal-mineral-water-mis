@@ -1,0 +1,227 @@
+.text-center {
+    color: #007bff;
+    padding-left: 230px;
+}
+
+.align-center {
+    padding-left: 380px;
+}
+
+.icons {
+    width: 18px;
+
+}
+
+.content-wrapper1 {
+    padding: 0;
+
+}
+
+.content1 {
+    margin: 0;
+}
+
+/* General Style */
+.entry-div {
+    width: 80%;
+    margin-top: -300px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    display: none;
+    background-color: lightblue;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-entry {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 10px;
+    margin: 2px;
+}
+
+.sm-btn {
+    border: none;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.update-btn {
+    background-color: green;
+}
+
+.btn-neighbor {
+    display: flex;
+    gap: 3px;
+}
+
+/* app.blade.php */
+.app {
+    width: 100%;
+    height: 97vh;
+
+}
+
+.logo {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+.logo h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+.first-page-content {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.link-content {
+    display: flex;
+    gap: 20px;
+}
+
+.links {
+    list-style: none;
+
+}
+
+.link-content {
+    text-decoration: none;
+}
+
+.logout-link {
+    display: flex;
+    gap: 20px;
+}
+
+/* Register */
+.main-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.register-container {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+.main-card {
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-1 {
+    background-color: blue;
+    padding: 0.2px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.name {
+    margin-top: 5px;
+}
+
+.form-name {
+    width: 99.6%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #007bff;
+    border: none;
+}
+
+/* home.blade.php */
+.card-body-1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Vendors */
+.vendor-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-close {
+    width: 34px;
+    height: 26px;
+    border: none;
+}
+
+.btn-close:hover {
+    background-color: red;
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 200px; */
+    background-color: lightblue;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+
+
+.vendorClass {
+    display: block;
+}
+
+.vendor-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+/* Sales Page */
